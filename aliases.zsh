@@ -11,3 +11,6 @@ alias hc='hasura console'
 
 # Typescript check by ts version in project
 alias tscl='npx tsc'
+
+
+alias kcp='cd ~/.shell-custom && sh killports.sh'
