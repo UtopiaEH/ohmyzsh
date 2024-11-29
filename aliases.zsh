@@ -2,7 +2,6 @@ alias zsource='source ~/.zshrc'
 
 alias cl='clear'
 alias lg='lazygit'
-alias oc='openconnect'
 
 alias h='hasura'
 alias hma='hasura migrate apply'
@@ -13,4 +12,7 @@ alias hc='hasura console'
 alias tscl='npx tsc'
 
 
-alias kcp='cd ~/.shell-custom && sh killports.sh'
+alias kcp='cd ~/Developer/scripts && sh kill-ports.sh'
+
+#Run VPN
+alias ocd='cd ~/.vpn && sh vpndev.sh'
